@@ -1,0 +1,39 @@
+{
+  "name": "bottom_turn",
+  "version": "0.1.0",
+  "description": "turn n burn",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node tape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/courington/bottomTurn.git"
+  },
+  "author": "courington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/courington/bottomTurn/issues"
+  },
+  "homepage": "https://github.com/courington/bottomTurn#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "react-script-loader": "0.0.1",
+    "tape": "^4.6.3",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "express-react-views": "^0.10.2",
+    "lodash": "^4.17.4",
+    "plaid": "^2.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
