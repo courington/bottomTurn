@@ -19,7 +19,7 @@ app.use((request, response, next) => {
 })
 
 app.get('/', require('./routes').index);
-app.get('/home', require('./routes').home);
+// app.get('/home', require('./routes').home);
 app.get('/plaid', require('./routes').plaid);
 app.post('/plaid/auth', require('./routes').plaidAuth);
 
