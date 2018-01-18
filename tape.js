@@ -7,6 +7,6 @@ test('timing test', function (t) {
     var start = Date.now();
 
     setTimeout(function () {
-        t.equal(Date.now() - start, 104);
+      t.equal(Date.now() - start, 104);
     }, 100);
 });

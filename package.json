@@ -4,7 +4,8 @@
   "description": "turn n burn",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start:watch": "nodemon index.js",
     "test": "node tape.js"
   },
   "repository": {
@@ -23,15 +24,16 @@
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
     "babel-preset-react": "^6.23.0",
+    "nodemon": "^1.14.11",
     "react-script-loader": "0.0.1",
     "tape": "^4.6.3",
     "webpack": "^2.2.1"
   },
   "dependencies": {
     "express": "^4.14.1",
-    "express-handlebars": "^3.0.0",
     "express-react-views": "^0.10.2",
     "lodash": "^4.17.4",
+    "pg": "^7.4.1",
     "plaid": "^2.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"

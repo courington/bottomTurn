@@ -1,5 +1,5 @@
 const React = require('react');
-const PlaidAuth = require('./views/PlaidAuth');
+const PlaidAuth = require('../views/plaidAuth');
 
 class Plaid extends React.Component {
   render() {

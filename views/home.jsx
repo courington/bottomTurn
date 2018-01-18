@@ -1,8 +1,9 @@
 var React = require('react');
+const DataList = require('../views/dataList/DataList');
 
 class HomeMessage extends React.Component {
   render() {
-    return <h1>{this.props.name}</h1>;
+    return <DataList data={this.props.names}>{this.props.children}</DataList>;
   }
 }
 
