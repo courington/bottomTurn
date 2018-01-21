@@ -1,5 +1,3 @@
-'use strict';
-
 exports.index = (req, res) => {
   const data = {
     title: 'express react',
