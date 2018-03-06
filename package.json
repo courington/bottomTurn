@@ -6,8 +6,9 @@
   "scripts": {
     "start": "babel-node index",
     "start:watch": "nodemon index",
-    "test": "browserify -t babelify tests/*.js | browser-run -p 2222 | faucet",
-    "postinstall": "npm install -g babel-cli tape faucet browserify browser-run"
+    "test": "faucet",
+    "build": "node build",
+    "db:migrate": "node_modules/.bin/sequelize db:migrate"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,9 @@
     "babelify": "^8.0.0",
     "nodemon": "^1.14.11",
     "react-script-loader": "0.0.1",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^2.0.4"
   },
   "dependencies": {
     "express": "^4.14.1",
@@ -38,6 +41,7 @@
     "pg": "^7.4.1",
     "plaid": "^2.0.1",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "sequelize": "^4.35.1"
   }
 }
