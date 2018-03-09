@@ -1,6 +1,6 @@
 var React = require('react');
-var DefaultLayout = require('./layouts/default');
-var Nav = require('./nav');
+var DefaultLayout = require('../layouts/default');
+var Nav = require('../nav');
 
 class HelloMessage extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class HelloMessage extends React.Component {
     return (
       <DefaultLayout title={this.props.title}>
         <Nav links={this.props.links}></Nav>
-        <div>Hello {this.props.name}</div>
+        <h1>{this.props.name}</h1>
       </DefaultLayout>
     );
   }

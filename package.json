@@ -30,6 +30,7 @@
     "babelify": "^8.0.0",
     "nodemon": "^1.14.11",
     "react-script-loader": "0.0.1",
+    "redux-devtools": "^3.4.1",
     "tape": "^4.8.0",
     "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4"
@@ -42,6 +43,8 @@
     "plaid": "^2.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
     "sequelize": "^4.35.1"
   }
 }
